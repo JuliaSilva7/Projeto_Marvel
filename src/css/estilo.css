@@ -36,3 +36,9 @@
 #navbar-ul{
     display: flex;
 }
+#imgBanner{
+    width: 80%;
+}
+#banner{
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-let imagens = ['src/assets/logo.webp', 'src/assets/marvel22.jpg'];
+let imagens = ['src/assets/marvel2.jfif', 'src/assets/marvel22.jpg', 'src/assets/marvel3.jfif', 'src/assets/Marvel.jfif', 'src/assets/marvel4.webp', 'src/assets/marvel11.png'];
 let index = 0;
 let time =3000;
 
