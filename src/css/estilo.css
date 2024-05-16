@@ -1,5 +1,8 @@
+body{
+    background-color: #000000;
+}
 .header{
-    background: #050101;
+    background: #3a0d0d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,13 +12,13 @@
     top: 0; left: 0; right: 0;
     z-index: 9000;
     
+    
 }
 .header .logo img{
     height: 8rem;
 }
 #logo{
     margin-left:20px;
-    
     width: 100px;
     height: 100px;
 }
@@ -41,4 +44,8 @@
 }
 #banner{
     text-align: center;
+    margin-top: 100px;
+}
+.dropdown{
+    list-style-type: none;
 }
