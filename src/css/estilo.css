@@ -1,5 +1,5 @@
 .header{
-    background: #815050;
+    background: #050101;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,6 +8,7 @@
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 9000;
+    
 }
 .header .logo img{
     height: 8rem;
@@ -22,11 +23,17 @@
     margin:0 1rem;
     font-size: 1.6rem;
     color: #fff;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .header .navbar a:hover{
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
-    background-color: #462B2B;
+    color: #b41e1e;
+}
+nav ul li a{
+    ;
 }
