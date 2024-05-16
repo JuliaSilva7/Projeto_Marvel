@@ -1,0 +1,32 @@
+.header{
+    background: #815050;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.01rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 9000;
+}
+.header .logo img{
+    height: 8rem;
+}
+#logo{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+    background-color: #462B2B;
+}
