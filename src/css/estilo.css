@@ -15,12 +15,12 @@
 }
 #logo{
     margin-left:20px;
-    margin-top: 10px;
+    
     width: 100px;
     height: 100px;
 }
 .header .navbar a{
-    margin:0 1rem;
+    margin: 0 1rem;
     font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
@@ -29,11 +29,10 @@
 }
 
 .header .navbar a:hover{
-    color: var(--main-color);
-    border-bottom: .1rem solid var(--main-color);
+    
     padding-bottom: .5rem;
     color: #b41e1e;
 }
-nav ul li a{
-    ;
+#navbar-ul{
+    display: flex;
 }
